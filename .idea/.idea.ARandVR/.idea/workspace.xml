@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6132ab38-12ee-4c91-80ab-29e5da85c7d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Editor/FibrumEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Editor/FibrumEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Editor/FibrumPhoneStartInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Editor/FibrumPhoneStartInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Editor/VRCameraInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Editor/VRCameraInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/BlackFade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/BlackFade.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/ChangeCameraEye.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/ChangeCameraEye.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Console.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Console.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/DisplayMetricsAndroid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/DisplayMetricsAndroid.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/FibrumController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/FibrumController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/FibrumInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/FibrumInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/FibrumStore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/FibrumStore.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/Background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/Background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/CheckMark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/CheckMark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/JoystickSetup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/JoystickSetup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/JoystickSetup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/JoystickSetup.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/JoystickSetupParameters.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/JoystickSetupParameters.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/PressButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/PressButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/PushJoystick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/PushJoystick.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/UImat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Joystick/UImat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/LensCorrection.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/LensCorrection/LensCorrection.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/LensCorrection/LensCorrection.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/LensCorrection/NewLensCorrection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/LensCorrection/NewLensCorrection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Materials/callibration.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Materials/callibration.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Materials/loader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Materials/loader.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Mobile Transparent Vertex Color.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Mobile Transparent Vertex Color.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/BackButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/BackButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/DisplayModePanelScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/DisplayModePanelScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/FibUIAppearScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/FibUIAppearScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/FibrumImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/FibrumImage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/Frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/Frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/Fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/Fullscreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0016.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0017.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0018.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0019.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/PlaneExplosion/PlaneExplosion0020.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/setupLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/setupLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/setupTex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/SetupUI/setupTex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material 5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/Materials/Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/iPhone 6.3ds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/iPhone 6.3ds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1) 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1) 1.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/Textures/iphone-6-02 (1).jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/Arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/Arrow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/Materials/Arrow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/Materials/Arrow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/Materials/aim.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/Materials/aim.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/UIHelper.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/UIHelper.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/VR_UIpointer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/VR_UIpointer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/aim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/UIpointer/aim.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRCalibration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRCalibration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRSensor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRSetupGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VRSetupGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/ButtonNormal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/ButtonNormal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/ButtonPressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/ButtonPressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/CanvasGUIPrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/CanvasGUIPrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Cardboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Cardboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/CircleProgressBar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/CircleProgressBar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/DefaultProgressBar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/DefaultProgressBar3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/FibrumImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/FibrumImage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Fullscreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/MaskedCutOutTex.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/MaskedCutOutTex.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Materials/DefaultProgressBar2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/Materials/DefaultProgressBar2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/PointerDefalut.pdn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/PointerDefalut.pdn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/PointerDefalut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/PointerDefalut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/SamsungGearVR3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/SamsungGearVR3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VRInputModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VRInputModule.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VR_UI_ProgressBar.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VR_UI_ProgressBar.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VR_canvas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VR_canvas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VR_canvasUIcontroller.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/VR_canvasUIcontroller.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/setupLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/setupLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/setupTex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/VR_GUI/setupTex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/callibration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/callibration.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/loader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Fibrum/loader.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/FibrumPhoneStart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/FibrumPhoneStart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/FibrumSmartphone 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/FibrumSmartphone 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/GameDisplayScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/GameDisplayScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/LeatherBM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/LeatherBM.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/LoaderAnim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/LoaderAnim/LightmapFar-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/LoaderAnim/LightmapFar-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/02 - Default.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/02 - Default.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/10___Default.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/10___Default.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/11___Default.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/11___Default.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/FrontColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/FrontColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/No Name.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/No Name.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/helmet.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/helmet.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/loader_trans.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/loader_trans.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/wire_088144225.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Materials/wire_088144225.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_GameDisplayScript_t.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_GameDisplayScript_t.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_GameDisplayScript_texT.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_GameDisplayScript_texT.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_Transform_localPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_Transform_localPosition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_Transform_localRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/Main_Camera_Transform_localRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/phone_Renderer_enabled.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/phone_Renderer_enabled.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/phone_Transform_localPosition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/phone_Transform_localPosition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/phone_Transform_localRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/SceneAnims/phone_Transform_localRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/BlackTex2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/GlassTrans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/GlassTrans.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/_galaxys3_black_galaxys3_blackMaterial__35.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/_galaxys3_black_galaxys3_blackMaterial__35.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/_galaxys3_black_galaxys3_black_galaxys3_blackphone.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/_galaxys3_black_galaxys3_black_galaxys3_blackphone.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/gameScreen.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/gameScreen.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/phoneBoxMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/phoneBoxMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/phoneCalibrMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/phoneCalibrMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/phone_game.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/phone_game.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/skybox2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/Materials/skybox2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/fibrumModel.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/fibrumModel.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/gameScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/gameScreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/phoneBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/phoneBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/phoneCalibr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/phoneCalibr.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/phoneInGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/phoneInGame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/skybox.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/skybox.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/skybox2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/Smartphone/skybox2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/antisphere.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/antisphere.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/helmet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/helmet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/loader_trans.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/loader_trans.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/shlem.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/shlem.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/shlem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumLoader/shlem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumSDK_documentation_EN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumSDK_documentation_EN.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumSDK_documentation_RU.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/FibrumSDK_documentation_RU.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/CanvasForVR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/CanvasForVR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/Joystick_Simple_FPS_character.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/Joystick_Simple_FPS_character.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/VR_Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/VR_Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/VRpointer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/VRpointer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/VRprogressBar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Prefabs/VRprogressBar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/EventSystem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/EventSystem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/JoystickSetup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/JoystickSetup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/VRSensor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/VRSensor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/VRSetup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/VRSetup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/VR_UI_dummyCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Resources/FibrumResources/VR_UI_dummyCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_dir.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_dir.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_dir.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_dir.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_dir.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_dir.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_dir.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_dir.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_dir.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_dir.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/LightmapSnapshot.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/1 - DemoTracking/LightmapSnapshot.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/2 - NewGUI_demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/2 - NewGUI_demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/3 - JoistickSetup_demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/3 - JoistickSetup_demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/4 - uiHelper_demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/4 - uiHelper_demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/LoaderAnim.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/LoaderAnim.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #25.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #25.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #26.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #26.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #27.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #27.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #28.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #28.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #29.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #29.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #30.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #30.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #31.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/Materials/Material #31.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/computer.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Desktop/computer.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/GUIuserScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/GUIuserScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/JoystickSetupDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/JoystickSetupDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/LightmapFar-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/LightmapFar-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Quad.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Quad.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Sphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/Sphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/tex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/tex.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/texOld.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FibrumSDK/Scenes/demoMaterials/texOld.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/Dry ground pattern.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/Dry ground pattern.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Dry ground/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/Grass &amp; dead leafs pattern 01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/Grass &amp; dead leafs pattern 01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 01/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/Grass &amp; dead leafs pattern 02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/Grass &amp; dead leafs pattern 02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; dead leafs 02/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/Grass &amp; rocks pattern.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/Grass &amp; rocks pattern.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass &amp; rocks/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/Grass pattern 01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/Grass pattern 01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 01/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/Grass pattern 02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/Grass pattern 02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 02/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/Grass pattern 03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/Grass pattern 03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 03/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/Grass pattern 04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/Grass pattern 04.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 04/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/Grass pattern 05.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/Grass pattern 05.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 05/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/Grass pattern 06.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/Grass pattern 06.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Grass 06/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/Ground &amp; moss pattern.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/Ground &amp; moss pattern.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; moss/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/Ground &amp; rocks pattern 01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/Ground &amp; rocks pattern 01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 01/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/Ground &amp; rocks pattern 02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/Ground &amp; rocks pattern 02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 02/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/Ground &amp; rocks pattern 03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/Ground &amp; rocks pattern 03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; rocks 03/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/Ground &amp; weeds.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/Ground &amp; weeds.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground &amp; weeds/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/Ground pattern 01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/Ground pattern 01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 01/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/Ground pattern 02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/Ground pattern 02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Ground 02/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/Lava pattern.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/Lava pattern.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/emissive.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/emissive.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ground textures pack/Lava/preview.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/DemoSceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/DemoSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Materials/Rock17.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Materials/Rock17.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Materials/Rock18.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Materials/Rock18.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Materials/Rock19.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Materials/Rock19.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Rock17.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Rock17.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Rock18.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Rock18.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Rock19.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Meshes/Rock19.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock17_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock17_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock17_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock17_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock17_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock17_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock18_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock18_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock18_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock18_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock18_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock18_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock19_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock19_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock19_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock19_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock19_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MossyRocks/Textures/Rock19_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Attack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Attack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_FallingBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_FallingBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_FallingForward.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_FallingForward.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Run_InPlace.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Run_InPlace.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk1_InPlace.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk1_InPlace.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk_InPlace.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Z_Walk_InPlace.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Attack.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Attack.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk1.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk1.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/FBXs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/FBXs/Zombie1.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/FBXs/Zombie1.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/FBXs/Zombie2.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/FBXs/Zombie2.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/FBXs/Zombie3.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/FBXs/Zombie3.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Materials/Plane.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Materials/Plane.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Materials/Zombie.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Materials/Zombie.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Prefabs/Zombie1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Prefabs/Zombie1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Prefabs/Zombie2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Prefabs/Zombie2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Prefabs/Zombie3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Prefabs/Zombie3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/ScenePrefabs.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/ScenePrefabs.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie_ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie_ao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie_metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie_metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie_nm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/Zombie_nm.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/zombie_emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zombie/Textures/zombie_emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Root/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Root/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Root/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Root/Scenes/SampleScene.unity.meta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2T70OX0Q06omNFasb6hZYOStnXd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\aquam\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\aquam\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\aquam\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2023.1.3f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath E:\work\VR\ARandVR -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\work\VR\ARandVR" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2023.1.3f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\work\VR\ARandVR -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="E:\work\VR\ARandVR" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6132ab38-12ee-4c91-80ab-29e5da85c7d0" name="Changes" comment="" />
+      <created>1690378781091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690378781091</updated>
+      <workItem from="1690378785177" duration="1831000" />
+      <workItem from="1690812309722" duration="301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
