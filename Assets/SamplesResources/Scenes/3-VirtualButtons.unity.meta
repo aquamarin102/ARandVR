@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 319d9b92c918a47e192e3d3382615bc8
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 99026
+  packageName: Vuforia Core Samples
+  packageVersion: 10.16.5
+  assetPath: Assets/SamplesResources/Scenes/3-VirtualButtons.unity
+  uploadId: 602366
