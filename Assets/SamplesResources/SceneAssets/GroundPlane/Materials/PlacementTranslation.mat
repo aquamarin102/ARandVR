@@ -2,17 +2,13 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: PlacementTranslation
   m_Shader: {fileID: 10750, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ALPHAPREMULTIPLY_ON
-  - _EMISSION
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -70,7 +66,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5b188306662214585ba4ef998a28bee8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -95,4 +90,3 @@ Material:
     - _GlowColor: {r: 1, g: 0.51724136, b: 0, a: 1}
     - _ProjectorForward: {r: 0.70710695, g: -0.7071069, b: -0.00000020861626, a: 0}
     - _ProjectorPos: {r: -1.148, g: -0.4, b: 0.946, a: 0}
-  m_BuildTextureStacks: []

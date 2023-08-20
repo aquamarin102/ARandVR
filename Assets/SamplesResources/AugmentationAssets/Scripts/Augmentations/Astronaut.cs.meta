@@ -1,7 +1,8 @@
 fileFormatVersion: 2
 guid: 9f0865e5c29578e45aaaa336edaa91fa
+timeCreated: 1495135183
+licenseType: Store
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -9,10 +10,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/AugmentationAssets/Scripts/Augmentations/Astronaut.cs
-  uploadId: 602366

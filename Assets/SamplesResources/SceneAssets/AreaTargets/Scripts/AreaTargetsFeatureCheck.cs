@@ -26,11 +26,6 @@ public class AreaTargetsFeatureCheck : MonoBehaviour
         VuforiaApplication.Instance.OnVuforiaStarted += OnVuforiaStarted;
     }
 
-    void OnDestroy()
-    {
-        VuforiaApplication.Instance.OnVuforiaStarted -= OnVuforiaStarted;
-    }
-
     void OnVuforiaStarted()
     {
         if (VuforiaRuntimeUtilities.IsSimulatorPlayMode())

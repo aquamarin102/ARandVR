@@ -1,14 +1,10 @@
 fileFormatVersion: 2
 guid: fe843a56d4bac4f79871a1dbed9d7168
-PrefabImporter:
+timeCreated: 1518144768
+licenseType: Store
+NativeFormatImporter:
   externalObjects: {}
+  mainObjectFileID: 100100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/Common/Resources/MessageBox.prefab
-  uploadId: 602366

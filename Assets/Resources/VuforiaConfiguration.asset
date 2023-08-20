@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QVh0clc2SC8vLy8vQUFBQUtPTUR4RFlCdUU0U2xuNHY2dVYrNkRFNGs0aG5mbDI2T3hrY09DalJHTkp0djBKUHA2UHlGRUFFS2p2N1RCY1Zwc2Vja0JYQ1NYSmMxRVR4YnIvRnpUSVRha3hOTHluNUZIUzBXcEkwWUxKMFIvcjhWSWxIbGpqeXFrakV1Ylo1OEQ1ckdOa0ptVDZWOCs1cVVvZmJUTXc2K050WWVBMnJheksycmM3cmZFRE82bFF6L1JJMkNDL2hLN1d2dFYvdkRXdFcwVEVkZHZvby9zUmYyRzlMVEJPOWNyM3JMZ0FMN1ZSK3NhWDRtaFFIRnRaWnEzQlBRMHJpd2g3RUExTlBjSVZqcWJEekNIK0d1WlRHc2ljTUVJOUh0V3k4MjhVYXlUWXBvVHpQSEJzNWU3bk9zZ2Q0aXZvT2x6YUNZamFTT1BjQmMyUDU2MHA5NlQvNkttczJkL1dycFFYYmltTlFoNjhHR1grMll3SWI=
+    vuforiaLicenseKey: AUsbFyj/////AAABmf8YRrBxSk8mhBThEglJdYgtFUO9f1h3u5V56CRT66CVOKeTT9+scpNWb1e3Y7YfyhBWZMfVWk7I4lFq1B+fJKEN1Hu15rwVEt/kj+GdYJx2t4LDvcieZaQas9Nx2A2mSrsS2IDYlcum2/VU8xQn4Yd3b5tQRIF1OY7cyv8LsC7W9Ayux5XwEYrZqoy2yNsDn+U2Z796UnVja1I9LYGNvVetiVWpitT4wNC8SUWaSlbPRp39AA0Erya2dMAwVNm2QdoqDK/WJcdb9habALH4QIZllMSABUoNEl1zhz6eL/tB9zqujUAOf+qypPsgCPpeSNwxJegk6EiTXKGIVRhQ5TrjULdrc1ivITXW15WJpdW7
+    ufoLicenseKey: QVNzSmVLbi8vLy8vQUFBQUtJbEZPR1ZXV2tKTWtKUGFTVjIyNytCN2ZqYW4wcDVvNDh3cXhPSnB4NmQ2aWlPUU5xV1JBcEVLRW1hNFJEajZKN3BNdU1LdjhZakQ3ZlFINzhVY0ZNampsclY1QW5pWitzU0piVjN1S2VsL242cmlGUjg0K3FISHE0SGNnSG5vdFBYeXhMWWpzUldFTlBMTDRHK0o3NXdGRFVibUxwQ3B1aEhBZDFWMFJBMDZzNFZhSkFYalRIWFVpZWZDd3puN1JmR3ZTR052QUxaQ2tZVDNSRzFmSXhkQ1pZVnF6a0wxYnNUUWlqd3pOM1pQOUZJZ05Ra08yMXJha2pKQ3haaWpUd3hYWlJud1p4cGoxdDJHT2VFK1FGeGtYQzFheFhFdnkreWM5QXhTaS8vZFE2RWZoRFRKVUVSRUh5VWhtNnVaKyt2WnUzWnpuSnNpS2hFOGU5YXBGV2pNMEl2OGFpR3dqa2J6M1dSeWgyRnE=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 4
+    maxSimultaneousImageTargets: 2
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 1
     logLevel: 0
-    version: 10.16.0
-    eulaAcceptedVersions: '{"Values":[""]}'
+    version: 10.14.4
+    eulaAcceptedVersions: '{"Values":["","0.0","10.14"]}'
   database:
     disableModelExtraction: 1
   shaders:
@@ -44,8 +44,8 @@ MonoBehaviour:
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mRecordingPath: Assets/SamplesResources/Recordings/area_target.mp4
-    playModeType: 2
+    mSequencePath: Assets/SamplesResources/Recordings/area_target.mp4
+    playModeType: 0
   webcam:
     renderTextureLayer: 30
   packageInformation:

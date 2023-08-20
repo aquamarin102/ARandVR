@@ -1,7 +1,8 @@
 fileFormatVersion: 2
 guid: f38ac85b7e0354d4d8bf6d491211735c
+timeCreated: 1496786976
+licenseType: Store
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -9,10 +10,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/AugmentationAssets/Scripts/StateMachineBehaviours/AstronautStateMachineBehaviour.cs
-  uploadId: 602366

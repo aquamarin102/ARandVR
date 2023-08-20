@@ -1140,7 +1140,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: Vuforia_MarsLander
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Vuforia_Marslander_RZR_Toy_Advanced.xml
@@ -1689,7 +1688,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: Vuforia_RZR_Toy
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Vuforia_Marslander_RZR_Toy_Advanced.xml

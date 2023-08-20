@@ -1547,7 +1547,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: RocketBooster
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/VuforiaMars_Images.xml

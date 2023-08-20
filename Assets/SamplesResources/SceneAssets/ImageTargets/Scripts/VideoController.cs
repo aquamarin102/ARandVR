@@ -4,8 +4,6 @@ Copyright (c) 2021 PTC Inc. All Rights Reserved.
 Vuforia is a trademark of PTC Inc., registered in the United States and other 
 countries.
 ===============================================================================*/
-
-using System;
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.UI;
@@ -30,18 +28,6 @@ public class VideoController : MonoBehaviour
         mVideoPlayer.loopPointReached += HandleLoopPointReached;
 
         LogClipInfo();
-    }
-
-    void OnDestroy()
-    {
-        if (mVideoPlayer != null)
-        {
-            mVideoPlayer.errorReceived -= HandleMVideoError;
-            mVideoPlayer.started -= HandleStartedEvent;
-            mVideoPlayer.prepareCompleted -= HandlePrepareCompleted;
-            mVideoPlayer.seekCompleted -= HandleSeekCompleted;
-            mVideoPlayer.loopPointReached -= HandleLoopPointReached;
-        }
     }
 
     void Update()

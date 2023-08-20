@@ -3268,7 +3268,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: 
   mInitializedInEditor: 1
   AccessKey: 6d564522fa530c5c7d99a0742bdc204a1ff14e18
@@ -4630,7 +4629,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: 
   mInitializedInEditor: 1
   mDataSetPath: --- EMPTY ---

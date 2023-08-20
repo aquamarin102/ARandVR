@@ -96,10 +96,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/Common/Icons/Android/AdaptiveIcons/ForeGround_x216.png
-  uploadId: 602366

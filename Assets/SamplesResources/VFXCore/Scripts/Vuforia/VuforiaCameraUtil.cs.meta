@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 07e7eb6a198383d46b6a538e8b4e6934
+timeCreated: 1510240854
+licenseType: Store
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -9,10 +11,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/VFXCore/Scripts/Vuforia/VuforiaCameraUtil.cs
-  uploadId: 602366

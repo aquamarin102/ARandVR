@@ -1,15 +1,9 @@
 fileFormatVersion: 2
 guid: 5565a4b515ec5ae4692bb6431133f706
+timeCreated: 1497582355
+licenseType: Store
 NativeFormatImporter:
-  externalObjects: {}
   mainObjectFileID: 7400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/AugmentationAssets/Animation/Drone/drone-scan-off-to-on.anim
-  uploadId: 602366

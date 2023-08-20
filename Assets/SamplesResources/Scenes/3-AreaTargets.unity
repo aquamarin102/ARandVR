@@ -4559,14 +4559,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: AreaTargetSample
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/AreaTargetSample.xml
   AuthoringModelPath: ed1d033f55404b708a1e13215cfa93c5_authoring.glb
   OcclusionModelPath: ed1d033f55404b708a1e13215cfa93c5_occlusion.3dt
-  MaxClippingHeight: 2.1513808
-  MinClippingHeight: 0
+  RuntimeCollider: 0
+  ClipHeight: 2.1513808
   mSize: {x: 0, y: 0, z: 0}
   mBoundingBox:
     m_Center: {x: 0, y: 0, z: 0}

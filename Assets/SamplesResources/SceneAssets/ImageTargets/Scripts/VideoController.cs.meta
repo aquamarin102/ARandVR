@@ -1,7 +1,8 @@
 fileFormatVersion: 2
 guid: ece57adc4d0744cc691e62337293dfa8
+timeCreated: 1496352551
+licenseType: Store
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -9,10 +10,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/SceneAssets/ImageTargets/Scripts/VideoController.cs
-  uploadId: 602366

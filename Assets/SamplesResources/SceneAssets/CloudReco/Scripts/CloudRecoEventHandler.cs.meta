@@ -1,18 +1,8 @@
 fileFormatVersion: 2
 guid: b899a91cf153b4d49a674198f2bbe0cc
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/SceneAssets/CloudReco/Scripts/CloudRecoEventHandler.cs
-  uploadId: 602366

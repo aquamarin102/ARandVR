@@ -1,7 +1,8 @@
 fileFormatVersion: 2
 guid: 3d404d444c0d96347b98ea0856ae103e
+timeCreated: 1465895522
+licenseType: Store
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -9,10 +10,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/SceneAssets/VuMarks/Scripts/VuMarkHandler.cs
-  uploadId: 602366

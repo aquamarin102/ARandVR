@@ -96,10 +96,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/SceneAssets/Barcodes/Sprites/2D Scanning Reticle.png
-  uploadId: 602366

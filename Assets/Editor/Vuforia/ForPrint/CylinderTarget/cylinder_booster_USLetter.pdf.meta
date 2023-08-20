@@ -1,14 +1,8 @@
 fileFormatVersion: 2
 guid: 78eb5653c5b77844196a06006d678259
+timeCreated: 1501795201
+licenseType: Store
 DefaultImporter:
-  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/Editor/Vuforia/ForPrint/CylinderTarget/cylinder_booster_USLetter.pdf
-  uploadId: 602366

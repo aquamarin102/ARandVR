@@ -25,12 +25,6 @@ public class CloudObserverEventHandler : DefaultObserverEventHandler
         mObserverBehaviour.OnTargetStatusChanged += OnTargetStatusChanged;
     }
 
-    protected override void OnDestroy()
-    {
-        base.OnDestroy();
-        mObserverBehaviour.OnTargetStatusChanged -= OnTargetStatusChanged;
-    }
-
     public void OnReset()
     {
         Debug.Log("<color=blue>OnReset()</color>");

@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: b59d6df321c20477c9f1999ab6b85a3d
+timeCreated: 1503688600
+licenseType: Store
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -9,10 +11,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/SceneAssets/CloudReco/Scripts/CloudContentManager.cs
-  uploadId: 602366

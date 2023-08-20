@@ -377,7 +377,7 @@ public class AboutScreenInfo
             "\n• <link=https://library.vuforia.com/articles/Solution/vuforia-fusion-supported-devices.html><color=blue><u>Vuforia Fusion Compatible Devices</u></color></link>" +
             "\n\n" +
             "<size=26>Additional Info:</size>" +
-            "\n• <link=event:ACTIVATE_GAMEOBJECT><color=blue><u>3rd Party Notice</u></color></link>" +
+            "\n• <link=https://developer.vuforia.com/legal/CAD-3rd-Party-License><color=blue><u>3rd Party License: CAD</u></color></link>" +
 #if ENABLE_MODEL_TARGETS_TEST_APP_DIAGNOSTICS
             "\n• <link=https://developer.vuforia.com/legal/statistics_CAD><color=blue><u>Statistics: CAD</u></color></link>" +
 #endif
@@ -413,7 +413,7 @@ public class AboutScreenInfo
             "\n\n" +
             "\nNOTE: The Area Targets sample contains the Area Target " +
             "of PTC's Customer Experience Centre in our HQ with an " +
-            "associated recording to play back in Unity Editor. If you " +
+            "associated sequence to play back in Unity Editor. If you " +
             "like to try in your space, you will need to create " +
             "an Area Target with one of our supported methods." +
             "\n\n" +

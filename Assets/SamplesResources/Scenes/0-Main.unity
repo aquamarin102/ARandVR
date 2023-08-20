@@ -510,7 +510,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: Astronaut
   mInitializedInEditor: 1
   mDataSetPath: 

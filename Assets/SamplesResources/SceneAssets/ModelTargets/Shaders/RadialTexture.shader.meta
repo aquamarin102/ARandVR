@@ -1,17 +1,10 @@
 fileFormatVersion: 2
 guid: 3a1ee91b31322419faa081f719ba99ea
+timeCreated: 1510187184
+licenseType: Store
 ShaderImporter:
   externalObjects: {}
   defaultTextures: []
-  nonModifiableTextures: []
-  preprocessorOverride: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/SceneAssets/ModelTargets/Shaders/RadialTexture.shader
-  uploadId: 602366

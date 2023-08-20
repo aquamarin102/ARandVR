@@ -1,7 +1,8 @@
 fileFormatVersion: 2
 guid: fc5387df398a7f14fa013cc66e587b4b
+timeCreated: 1496706299
+licenseType: Store
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
@@ -9,10 +10,3 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 99026
-  packageName: Vuforia Core Samples
-  packageVersion: 10.16.5
-  assetPath: Assets/SamplesResources/AugmentationAssets/Scripts/StateMachineBehaviours/AugmentationStateMachineBehaviour.cs
-  uploadId: 602366

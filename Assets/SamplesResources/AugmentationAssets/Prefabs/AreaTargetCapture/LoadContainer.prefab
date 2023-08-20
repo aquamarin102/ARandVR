@@ -30,7 +30,6 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6674510283179178472}
   m_RootOrder: 0
@@ -145,7 +144,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6674510283179178472}
   - {fileID: 6674510283038953311}
@@ -181,7 +179,10 @@ MonoBehaviour:
   Loader: {fileID: 1461096459}
   DatasetButtonPrefab: {fileID: 3720633672226028857, guid: e9be1187d5db64020b7c3b205c6284b7,
     type: 3}
+  OpenButton: {fileID: 6674510282702904284}
+  CloseButton: {fileID: 6674510283038953310}
   Panel: {fileID: 6674510281865865017}
+  ScrollPanel: {fileID: 6674510283179178479}
 --- !u!114 &1461096459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +226,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6674510281882397529}
   m_RootOrder: 2
@@ -358,7 +358,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6674510281882397529}
   m_RootOrder: 1
@@ -492,7 +491,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6674510281865865017}
   m_Father: {fileID: 6674510281882397529}

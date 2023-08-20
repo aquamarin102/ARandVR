@@ -468,7 +468,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreviewVisible: 1
   RuntimeOcclusion: 0
-  RuntimeCollider: 0
   mTrackableName: Vuforia_RZR_Toy
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Vuforia_RZR_Toy.xml
